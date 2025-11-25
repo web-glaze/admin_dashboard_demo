@@ -1,4 +1,3 @@
-// src/app/_not-found/page.tsx
 export const runtime = "edge";
 
 export default function NotFound() {
