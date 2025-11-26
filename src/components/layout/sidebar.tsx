@@ -59,7 +59,7 @@ export default function Sidebar({ className }: SidebarProps) {
                 <div className="w-12 h-12 bg-white/95 backdrop-blur-sm rounded-xl shadow-lg border border-white/40 overflow-hidden p-2 transition-all duration-300 group-hover:shadow-xl group-hover:scale-110 group-hover:rotate-3">
                   {/* Gradient overlay for depth */}
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10"></div>
-                  <Image
+                  {/* <Image
                     src="https://www.bluechip-gulf.ae/wp-content/uploads/2018/12/cropped-Re-bluechip-gulf-IT-.png"
                     alt="BG"
                     width={48}
@@ -67,7 +67,7 @@ export default function Sidebar({ className }: SidebarProps) {
                     className="relative object-contain transition-all duration-300"
                     quality={100}
                     priority
-                  />
+                  /> */}
                   {/* Animated border effect */}
                   <div className="absolute inset-0 rounded-xl border-2 border-transparent bg-gradient-to-br from-blue-500/30 to-purple-500/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
@@ -101,7 +101,7 @@ export default function Sidebar({ className }: SidebarProps) {
           {!isMinimized ? (
             <div className="px-6 py-4">
               <p className="text-xs text-muted-foreground text-center">
-                © 2025 Bluechip Gulf IT Services
+                © 2025 Webglaze Services
               </p>
             </div>
           ) : (

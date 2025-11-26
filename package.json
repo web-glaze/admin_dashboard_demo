@@ -1,5 +1,6 @@
 {
-  "name": "kra-kpi-admin",
+  "name": "admin",
+  "packageManager": "yarn@4.12.0",
   "version": "0.1.0",
   "private": true,
   "scripts": {
